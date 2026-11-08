@@ -554,7 +554,7 @@ tbody td:first-child { font-weight: 600; color: var(--ink); white-space: nowrap;
 @media (max-width: 760px) {
   .header-inner { min-height: 3.8rem; }
   .site-nav { gap: 1rem; font-size: 0.85rem; }
-  .site-nav a:first-child { display: none; }
+  .site-nav a:last-child { display: none; }
   .hero { padding-top: 2.8rem; }
   .method-strip > div:first-child { margin-bottom: 1.2rem; }
   .method-cols { grid-template-columns: 1fr; gap: 1.3rem; }
