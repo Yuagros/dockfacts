@@ -20,7 +20,7 @@ Format values: `buying` (commercial), `explainer` (informational), `reference` (
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | 2026-11-09 | buying | CalDigit TS5 vs TS5 Plus: which Thunderbolt 5 dock fits a Mac desk | "ts5 vs ts5 plus" — high-intent comparison | Port tables + display limits from both CalDigit pages | drafted (content/articles/caldigit-ts5-vs-ts5-plus.md, draft:true) |
 | 2 | 2026-11-10 | buying | CalDigit TS4 vs TS5: is Thunderbolt 5 worth it for a Mac? | "ts4 vs ts5" — comparison | Both product pages; no price claims unless dated | drafted (content/articles/caldigit-ts4-vs-ts5.md, draft:true) |
-| 3 | 2026-11-11 | buying | Plugable TBT-UDH2 vs CalDigit TS5 | "plugable tbt-udh2 vs caldigit ts5" | Plugable + CalDigit specs; dual-HDMI vs TB-port design | queued |
+| 3 | 2026-11-11 | buying | Plugable TBT-UDH2 vs CalDigit TS5 | "plugable tbt-udh2 vs caldigit ts5" | Plugable + CalDigit specs; dual-HDMI vs TB-port design | drafted (content/articles/plugable-tbt-udh2-vs-caldigit-ts5.md, draft:true) |
 | 4 | 2026-11-12 | explainer | Do you need Thunderbolt 5 on a Mac? | "thunderbolt 5 mac worth it" — researcher | Apple TB5 host list; vendor bandwidth claims | queued |
 | 5 | 2026-11-13 | buying | Best dock for a MacBook Pro (M5 Pro / M5 Max) | "best dock macbook pro m5" — buyer | Apple MBP display specs; dock display matrices | queued |
 | 6 | 2026-11-14 | reference | MacBook Air M5 display limits: the complete reference | "macbook air m5 how many monitors" — reference | Apple tech specs only; keep updated | queued |

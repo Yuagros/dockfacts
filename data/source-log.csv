@@ -15,3 +15,5 @@ date,article,source_url,claim_checked,checked_by
 2026-11-08,caldigit-ts4-vs-ts5,https://www.caldigit.com/thunderbolt-5-dock-ts5/,"TS5: 15 ports, 140W, 80/120Gb/s, triple/four displays on TB5 hosts, 240W PSU, 1.41 lb",agent
 2026-11-08,caldigit-ts4-vs-ts5,https://www.theverge.com/2022/2/8/22923422/caldigit-ts4-thunderbolt-4-dock-usb-c-price-specs-monitor,"TS4 launch price $359.95 (2022)",agent
 2026-11-08,caldigit-ts4-vs-ts5,https://www.theverge.com/news/645134/caldigit-thunderbolt-5-dock-ts5-plus-pricing-availability,"TS5 launch price $369.99 (2025)",agent
+2026-11-08,plugable-tbt-udh2-vs-caldigit-ts5,https://plugable.com/blogs/news/plugable-s-140w-16-in-1-thunderbolt-5-dock-packs-power-and-ports-including-dual-hdmi-2-1,"TBT-UDH2: 16 ports, 2x HDMI 2.1, 140W, 2.5GbE, 30W front ports, one downstream TB5, $349.95 list",agent
+2026-11-08,plugable-tbt-udh2-vs-caldigit-ts5,https://www.caldigit.com/thunderbolt-5-dock-ts5/,"TS5: 15 ports, 4x TB5, 140W, 2.5GbE, 3x downstream TB5 at 15W, no video output, triple/quad display support",agent
