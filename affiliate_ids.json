@@ -28,6 +28,13 @@
       "fallbackUrl": "https://www.caldigit.com/thunderbolt-5-dock-ts5/",
       "verified": "2026-11-08"
     },
+    "caldigit-ts5-plus": {
+      "name": "CalDigit TS5 Plus",
+      "program": "amazon_us",
+      "asin": "",
+      "fallbackUrl": "https://www.caldigit.com/thunderbolt-5-dock-ts5-plus/",
+      "verified": "2026-11-08"
+    },
     "caldigit-ts4": {
       "name": "CalDigit TS4",
       "program": "amazon_us",

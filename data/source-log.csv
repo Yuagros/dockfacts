@@ -7,3 +7,7 @@ date,article,source_url,claim_checked,checked_by
 2026-11-08,best-dock-for-macbook-air-m5-dual-monitors,https://plugable.com/blogs/news/understanding-multiple-displays-on-apple-silicon-macs,"macOS does not support MST for extended displays; MST docks mirror; DisplayLink requires driver and Screen Recording permission",agent
 2026-11-08,usb-c-hub-vs-thunderbolt-dock-mac,https://plugable.com/blogs/news/navigating-usb-c-docking-understanding-alt-mode-mst-displaylink-and-thunderbolt,"MST, DisplayPort Alt Mode, DisplayLink and Thunderbolt behaviour on macOS",agent
 2026-11-08,usb-c-hub-vs-thunderbolt-dock-mac,https://www.caldigit.com/thunderbolt-5-dock-ts5/,"Thunderbolt 5 80Gb/s, 120Gb/s Bandwidth Boost; DSC required for 6K/8K",agent
+2026-11-08,caldigit-ts5-vs-ts5-plus,https://www.caldigit.com/thunderbolt-5-dock-ts5-plus/,"TS5 Plus: 20 ports, 10GbE, DP 2.1, 36W downstream TB5, dual USB controllers, four displays on M5 Max, 330W PSU",agent
+2026-11-08,caldigit-ts5-vs-ts5-plus,https://www.caldigit.com/thunderbolt-5-dock-ts5/,"TS5: 15 ports, 15W downstream TB5, 2.5GbE, no DisplayPort output, 240W PSU",agent
+2026-11-08,caldigit-ts5-vs-ts5-plus,https://www.theverge.com/news/645134/caldigit-thunderbolt-5-dock-ts5-plus-pricing-availability,"Launch prices: TS5 $369.99, TS5 Plus $499.99 (2025)",agent
+2026-11-08,caldigit-ts5-vs-ts5-plus,https://www.apple.com/macbook-air/specs/,"M5 Air: two external displays, Thunderbolt 4",agent

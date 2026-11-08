@@ -765,8 +765,28 @@ function main() {
 
   const pages = loadCollection(path.join(ROOT, 'content', 'pages'))
     .filter((p) => !p.draft);
-  const articleFiles = loadCollection(path.join(ROOT, 'content', 'articles'))
-    .filter((a) => !a.draft);
+  const allArticleFiles = loadCollection(path.join(ROOT, 'content', 'articles'));
+  const draftFiles = allArticleFiles.filter((a) => a.draft);
+  const articleFiles = allArticleFiles.filter((a) => !a.draft);
+
+  // Drafts are not published, but they still have to be safe to publish later.
+  for (const d of draftFiles) {
+    const draftSlugs = new Set([...d.body.matchAll(/\[\[aff:([a-z0-9-]+)/g)].map((m) => m[1]));
+    for (const slug of draftSlugs) {
+      if (!aff.products || !aff.products[slug]) {
+        error(`draft ${d.file} references unknown affiliate product "${slug}"`);
+      }
+    }
+    if (d.description && d.description.length > 170) {
+      warn(`draft ${d.file} description is ${d.description.length} chars; keep it under 170`);
+    }
+  }
+
+  const allSlugs = new Set();
+  for (const a of allArticleFiles) {
+    if (allSlugs.has(a.slug)) error(`duplicate article slug "${a.slug}" (published or draft)`);
+    allSlugs.add(a.slug);
+  }
 
   for (const a of articleFiles) {
     for (const field of ['title', 'description', 'date']) {
