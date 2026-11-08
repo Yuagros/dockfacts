@@ -11,3 +11,7 @@ date,article,source_url,claim_checked,checked_by
 2026-11-08,caldigit-ts5-vs-ts5-plus,https://www.caldigit.com/thunderbolt-5-dock-ts5/,"TS5: 15 ports, 15W downstream TB5, 2.5GbE, no DisplayPort output, 240W PSU",agent
 2026-11-08,caldigit-ts5-vs-ts5-plus,https://www.theverge.com/news/645134/caldigit-thunderbolt-5-dock-ts5-plus-pricing-availability,"Launch prices: TS5 $369.99, TS5 Plus $499.99 (2025)",agent
 2026-11-08,caldigit-ts5-vs-ts5-plus,https://www.apple.com/macbook-air/specs/,"M5 Air: two external displays, Thunderbolt 4",agent
+2026-11-08,caldigit-ts4-vs-ts5,https://www.caldigit.com/thunderbolt-station-4/,"TS4: 18 ports, 98W, DisplayPort 1.4, dual 6K60, 230W PSU, macOS 11.4, 1.41 lb",agent
+2026-11-08,caldigit-ts4-vs-ts5,https://www.caldigit.com/thunderbolt-5-dock-ts5/,"TS5: 15 ports, 140W, 80/120Gb/s, triple/four displays on TB5 hosts, 240W PSU, 1.41 lb",agent
+2026-11-08,caldigit-ts4-vs-ts5,https://www.theverge.com/2022/2/8/22923422/caldigit-ts4-thunderbolt-4-dock-usb-c-price-specs-monitor,"TS4 launch price $359.95 (2022)",agent
+2026-11-08,caldigit-ts4-vs-ts5,https://www.theverge.com/news/645134/caldigit-thunderbolt-5-dock-ts5-plus-pricing-availability,"TS5 launch price $369.99 (2025)",agent
