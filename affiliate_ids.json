@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "updated": "2026-11-08",
+  "_instructions": [
+    "This file is the ONLY place affiliate IDs belong. Never put an ID directly in an article.",
+    "An empty id or enabled:false means the build emits the product's plain merchant URL with rel=\"sponsored nofollow noopener\" and no tracking parameter.",
+    "Fill in an ID only after the program has approved the site and you have read its terms. Do not invent, guess, or reuse another publisher's ID.",
+    "The Amazon program requires the site to display an affiliate disclosure. That page already exists at /affiliate-disclosure/ and an inline note is rendered on every article.",
+    "Run `npm run check:affiliate` after editing to see what is active and what is still missing."
+  ],
+  "programs": {
+    "amazon_us": {
+      "name": "Amazon Associates (US)",
+      "enabled": false,
+      "id": "",
+      "param": "tag",
+      "urlTemplate": "https://www.amazon.com/dp/{asin}?tag={id}",
+      "applicationUrl": "https://affiliate-program.amazon.com/",
+      "termsUrl": "https://affiliate-program.amazon.com/help/operating/agreement",
+      "notes": "Approval requires an established site and a tax/payment profile. The agent cannot complete that signup. Add the tracking ID here once Amazon approves the account."
+    }
+  },
+  "products": {
+    "caldigit-ts5": {
+      "name": "CalDigit TS5",
+      "program": "amazon_us",
+      "asin": "",
+      "fallbackUrl": "https://www.caldigit.com/thunderbolt-5-dock-ts5/",
+      "verified": "2026-11-08"
+    },
+    "caldigit-ts4": {
+      "name": "CalDigit TS4",
+      "program": "amazon_us",
+      "asin": "",
+      "fallbackUrl": "https://www.caldigit.com/thunderbolt-station-4/",
+      "verified": "2026-11-08"
+    },
+    "plugable-tbt-udh2": {
+      "name": "Plugable TBT-UDH2",
+      "program": "amazon_us",
+      "asin": "",
+      "fallbackUrl": "https://plugable.com/products/tbt-udh2",
+      "verified": "2026-11-08"
+    },
+    "anker-555": {
+      "name": "Anker 555 USB-C Hub (8-in-1)",
+      "program": "amazon_us",
+      "asin": "",
+      "fallbackUrl": "https://www.anker.com/products/a8383",
+      "verified": "2026-11-08"
+    },
+    "owc-thunderbolt-5-dock": {
+      "name": "OWC Thunderbolt 5 Dock",
+      "program": "amazon_us",
+      "asin": "",
+      "fallbackUrl": "https://www.owc.com/solutions/thunderbolt-5-dock",
+      "verified": "2026-11-08"
+    }
+  }
+}

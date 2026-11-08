@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How we research — DockFacts</title>
+<meta name="description" content="The DockFacts method: start with the host's documented limits, verify product claims against the vendor's own spec page, date every check, and publish the sources.">
+<link rel="canonical" href="https://YOUR-USERNAME.github.io/dockfacts/how-we-research/">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta property="og:site_name" content="DockFacts">
+<meta property="og:type" content="website">
+<meta property="og:title" content="How we research">
+<meta property="og:description" content="The DockFacts method: start with the host's documented limits, verify product claims against the vendor's own spec page, date every check, and publish the sources.">
+<meta property="og:url" content="https://YOUR-USERNAME.github.io/dockfacts/how-we-research/">
+<meta name="twitter:card" content="summary">
+<meta name="theme-color" content="#f7f5f0" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#101416" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../assets/style.css">
+<link rel="alternate" type="application/rss+xml" title="DockFacts" href="../feed.xml">
+
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="../" aria-label="DockFacts home">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 28 28" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.6">
+          <rect x="2.5" y="4.5" width="23" height="14" rx="2.5"/>
+          <path d="M8 22.5h12M14 18.5v4"/>
+          <path d="M7.5 9h5M7.5 12.5h9M7.5 16h4" stroke-linecap="round"/>
+        </svg>
+      </span>
+      <span class="brand-text">DockFacts</span>
+    </a>
+    <nav class="site-nav" aria-label="Main">
+      <a href="../articles/">Guides</a>
+      <a href="../how-we-research/">How we research</a>
+      <a href="../about/">About</a>
+    </nav>
+  </div>
+</header>
+<main id="main">
+<article class="page">
+  <div class="wrap page-wrap">
+    <header class="article-head">
+      <p class="eyebrow">Method</p>
+      <h1>How we research</h1>
+      <p class="dek">The DockFacts method: start with the host's documented limits, verify product claims against the vendor's own spec page, date every check, and publish the sources.</p>
+      <div class="meta"><span>Updated 8 November 2026</span></div>
+    </header>
+    <div class="article-body page-body">
+      <p>This page is the receipt for everything else on the site. It explains how a DockFacts guide is built, what counts as a source, and where the limits of the method are.</p>
+<h2 id="1-start-with-the-host-not-the-dock">1. Start with the host, not the dock</h2>
+<p>The Mac sets the ceiling. Before looking at a single dock, we record what the host machine can do:</p>
+<ul><li><strong>Display count and resolution.</strong> Apple's tech-spec page for the exact model is the primary source. We note whether the built-in display can stay open, how many external displays are supported, and the maximum resolution and refresh rate.</li><li><strong>Port standard.</strong> Thunderbolt 3, Thunderbolt 4, Thunderbolt 5, or plain USB-C with DisplayPort Alt Mode. The generation determines bandwidth, charging, and how many native display streams can travel over one cable.</li><li><strong>Display compression.</strong> Whether the host supports Display Stream Compression (DSC) matters for 5K, 6K, 8K, and high refresh rates. Apple documents DSC support on newer Macs; we quote the page rather than assume.</li><li><strong>macOS behaviour.</strong> Native display support is not the same as what a particular hub can negotiate. We separate the two.</li></ul>
+<p>A dock cannot exceed the host's limits. Most bad buying advice starts by ignoring that sentence.</p>
+<h2 id="2-verify-product-claims-at-the-source">2. Verify product claims at the source</h2>
+<p>For each product we consider, we use the manufacturer's own spec page, manual, or knowledge base — not a retailer listing, not a search-result snippet, and not another affiliate site.</p>
+<p>We record:</p>
+<ul><li>the exact port list and which ports carry video;</li><li>the maximum number of displays the vendor claims, and under which host conditions;</li><li>host charging wattage and whether the vendor says it is sustained;</li><li>Ethernet speed, card readers, audio, and USB generations;</li><li>the date we checked the page.</li></ul>
+<p>If the vendor does not publish a number, we do not invent one. If a claim is ambiguous — for example, &quot;up to 8K&quot; without saying at what refresh rate or on which host — we either quote the ambiguity or leave the product out.</p>
+<h2 id="3-use-standards-for-the-things-vendors-blur">3. Use standards for the things vendors blur</h2>
+<p>Marketing pages are good at port counts and bad at bandwidth maths. For the underlying rules we use the standards bodies and platform documentation:</p>
+<ul><li><strong>USB Implementers Forum</strong> for USB-C, USB4, and power delivery.</li><li><strong>Intel</strong> for Thunderbolt generations and their bandwidth guarantees.</li><li><strong>VESA</strong> for DisplayPort, DSC, and MST behaviour.</li><li><strong>Apple</strong> for macOS display handling and host limits.</li><li>When Apple's documentation is silent on a behaviour — for example, macOS mirroring an MST-based display split — we cite a vendor technical note and label it as vendor documentation, such as <a href="https://plugable.com/blogs/news/understanding-multiple-displays-on-apple-silicon-macs" rel="noopener" target="_blank">Plugable's explanation of Apple silicon display behaviour</a>.</li><li><strong>Vendor knowledge bases</strong> (CalDigit, Plugable, OWC and others) for documented platform quirks, clearly labelled as vendor sources rather than independent tests.</li></ul>
+<h2 id="4-cross-check-then-state-the-uncertainty">4. Cross-check, then state the uncertainty</h2>
+<p>Two sources rarely agree perfectly. When they conflict, we do three things in order:</p>
+<ol><li>Prefer the primary source (Apple for macOS, the manufacturer for its own product).</li><li>Look for a second document from the same manufacturer that resolves the conflict.</li><li>If it is still unresolved, say so in the article and avoid a definitive recommendation.</li></ol>
+<p>&quot;That depends&quot; is a valid answer when the sources genuinely disagree. A confident wrong answer is worse than a caveat.</p>
+<h2 id="5-prices-link-do-not-mirror">5. Prices: link, do not mirror</h2>
+<p>Retail prices change constantly and vary by region. We do not publish a price unless we can point to a live vendor page we checked on the date shown, and even then we call it a list price, not a deal.</p>
+<p>For everything else we link to the merchant so you see the current price. We do not claim a product is &quot;cheap&quot;, &quot;on sale&quot;, or &quot;the best value&quot; without evidence we can date.</p>
+<h2 id="6-what-we-do-not-do">6. What we do not do</h2>
+<ul><li>We do not claim hands-on testing, unboxing, or long-term use.</li><li>We do not publish synthetic benchmark scores or invented latency numbers.</li><li>We do not assign star ratings or &quot;editor's choice&quot; badges that imply laboratory testing.</li><li>We do not scrape or republish customer reviews.</li><li>We do not use &quot;best&quot; in a title unless the article explains the criteria and the specific setup the pick is best for.</li></ul>
+<h2 id="7-ai-assistance">7. AI assistance</h2>
+<p>DockFacts is written by an AI research agent following a human editorial brief. The agent reads the sources, drafts the guide, and runs the static-site build. A human operator controls the domain, the affiliate accounts, and publication.</p>
+<p>We disclose this on every article's author box. The compensation for the limitation is traceability: every factual claim that matters has a source link and a check date.</p>
+<h2 id="8-corrections-and-updates">8. Corrections and updates</h2>
+<p>When a source changes, we update the article, change the &quot;specs checked&quot; date, and log the change in the correction log. If a product is discontinued or a claim can no longer be verified, we remove the recommendation rather than leave a stale link.</p>
+<p>If you find an error, the repository issue tracker (linked in the footer once the site is live) is the fastest route. Please include the URL and the source you believe is correct.</p>
+<h2 id="9-independence">9. Independence</h2>
+<p>Affiliate links may pay for the site. They do not buy placement. The order of picks is decided by fit to the documented setup, not by commission rate. If a product is a bad fit for a configuration, it does not appear, regardless of what it pays.</p>
+<p><em>Method last reviewed: 8 November 2026.</em></p>
+    </div>
+  </div>
+</article>
+</main>
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div class="footer-about">
+      <p class="footer-brand">DockFacts</p>
+      <p>Mac docking and display compatibility, checked against the spec sheet. We do not claim hands-on testing, and we do not sell rankings.</p>
+    </div>
+    <nav class="footer-nav" aria-label="Footer">
+      <a href="../articles/">All guides</a>
+      <a href="../how-we-research/">How we research</a>
+      <a href="../about/">About</a>
+      <a href="../affiliate-disclosure/">Affiliate disclosure</a>
+      <a href="../privacy/">Privacy</a>
+      
+    </nav>
+  </div>
+  <div class="wrap footer-bottom">
+    <p>© 2026 DockFacts. Specs checked and dated; prices linked, never mirrored.</p>
+    <p>Affiliate links, where active, are disclosed. <a href="../affiliate-disclosure/">Read the disclosure</a>.</p>
+  </div>
+</footer>
+</body>
+</html>

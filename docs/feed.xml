@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DockFacts</title>
+    <link>https://YOUR-USERNAME.github.io/dockfacts/</link>
+    <description>An independent research desk for Mac docks and multi-display setups. We compare published specs, date every claim, and never pretend we tested the hardware.</description>
+    <language>en</language>
+    <atom:link href="https://YOUR-USERNAME.github.io/dockfacts/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Best dock for a dual-monitor MacBook Air (M5)</title>
+      <link>https://YOUR-USERNAME.github.io/dockfacts/articles/best-dock-for-macbook-air-m5-dual-monitors/</link>
+      <guid>https://YOUR-USERNAME.github.io/dockfacts/articles/best-dock-for-macbook-air-m5-dual-monitors/</guid>
+      <pubDate>Sun, 08 Nov 2026 09:00:00 GMT</pubDate>
+      <description>The M5 MacBook Air can drive two 6K displays over one cable. These are the dock specs that make it work, four docks that fit, and the traps to avoid.</description>
+    </item>
+    <item>
+      <title>USB-C hub or Thunderbolt dock for a Mac? Use this 4-question test</title>
+      <link>https://YOUR-USERNAME.github.io/dockfacts/articles/usb-c-hub-vs-thunderbolt-dock-mac/</link>
+      <guid>https://YOUR-USERNAME.github.io/dockfacts/articles/usb-c-hub-vs-thunderbolt-dock-mac/</guid>
+      <pubDate>Sun, 08 Nov 2026 09:00:00 GMT</pubDate>
+      <description>A cheap USB-C hub and a premium Thunderbolt dock can both drive a monitor. The difference is display streams, bandwidth, and power. Four questions decide what you need.</description>
+    </item>
+  </channel>
+</rss>

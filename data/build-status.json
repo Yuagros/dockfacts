@@ -1,0 +1,20 @@
+{
+  "builtAt": "2026-11-08T21:17:41.339Z",
+  "articles": 2,
+  "pages": 4,
+  "words": 4553,
+  "affiliate": {
+    "activePrograms": [],
+    "inactivePrograms": [
+      "amazon_us"
+    ],
+    "missingAsins": [],
+    "taggedLinks": 0,
+    "plainLinks": 8,
+    "untaggedLinks": 0
+  },
+  "warnings": [
+    "site.config.json still has the placeholder baseUrl; sitemap, canonical tags, and feed links will be wrong until it is set."
+  ],
+  "errors": []
+}

@@ -1,0 +1,9 @@
+date,article,source_url,claim_checked,checked_by
+2026-11-08,best-dock-for-macbook-air-m5-dual-monitors,https://www.apple.com/macbook-air/specs/,"M5 Air: two external displays up to 6K60 or 4K144; two over one Thunderbolt port; built-in simultaneously; two Thunderbolt 4 ports at 40Gb/s; DisplayPort 1.4 HBR3 with DSC",agent
+2026-11-08,best-dock-for-macbook-air-m5-dual-monitors,https://www.caldigit.com/thunderbolt-5-dock-ts5/,"TS5: 15 ports, four Thunderbolt 5 ports, 140W, 2.5GbE, five USB ports, dual displays on TB4 hosts, triple on TB5 hosts",agent
+2026-11-08,best-dock-for-macbook-air-m5-dual-monitors,https://www.caldigit.com/thunderbolt-station-4/,"TS4: 18 ports, 98W, 2.5GbE, DisplayPort 1.4, dual 6K60",agent
+2026-11-08,best-dock-for-macbook-air-m5-dual-monitors,https://plugable.com/blogs/news/plugable-s-140w-16-in-1-thunderbolt-5-dock-packs-power-and-ports-including-dual-hdmi-2-1,"TBT-UDH2: 16 ports, dual HDMI 2.1 up to 8K60/4K144, 140W, 2.5GbE, SD 4.0, works with TB4, list price $349.95",agent
+2026-11-08,best-dock-for-macbook-air-m5-dual-monitors,https://www.anker.com/products/a8383,"Anker 555: 8-in-1, HDMI 2.0 4K60, 100W pass-through (85W laptop), 1GbE, SD/microSD",agent
+2026-11-08,best-dock-for-macbook-air-m5-dual-monitors,https://plugable.com/blogs/news/understanding-multiple-displays-on-apple-silicon-macs,"macOS does not support MST for extended displays; MST docks mirror; DisplayLink requires driver and Screen Recording permission",agent
+2026-11-08,usb-c-hub-vs-thunderbolt-dock-mac,https://plugable.com/blogs/news/navigating-usb-c-docking-understanding-alt-mode-mst-displaylink-and-thunderbolt,"MST, DisplayPort Alt Mode, DisplayLink and Thunderbolt behaviour on macOS",agent
+2026-11-08,usb-c-hub-vs-thunderbolt-dock-mac,https://www.caldigit.com/thunderbolt-5-dock-ts5/,"Thunderbolt 5 80Gb/s, 120Gb/s Bandwidth Boost; DSC required for 6K/8K",agent
