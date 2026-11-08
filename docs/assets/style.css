@@ -308,21 +308,24 @@ p { margin: 0 0 1.15em; }
 .checklist-page :is(#host-and-displays, #ports-power-and-network, #cables-and-purchase) + ul > li {
   position: relative;
   margin: 0;
-  padding: 0.75rem 0 1.05rem 2.2rem;
+  padding: 0.9rem 0 1.15rem 2.45rem;
   border-bottom: 1px solid var(--line);
-  line-height: 1.6;
+  line-height: 1.62;
 }
 .checklist-page :is(#host-and-displays, #ports-power-and-network, #cables-and-purchase) + ul > li:last-child {
   border-bottom: 0;
 }
 .checklist-page :is(#host-and-displays, #ports-power-and-network, #cables-and-purchase) + ul > li::before {
-  content: "☐";
+  content: "";
   position: absolute;
   left: 0;
-  top: 0.6rem;
-  font-size: 1.25rem;
-  line-height: 1;
-  color: var(--accent);
+  top: 0.3rem;
+  width: 1.2rem;
+  height: 1.2rem;
+  box-sizing: border-box;
+  border: 1.5px solid var(--accent);
+  border-radius: 3px;
+  background: var(--surface);
 }
 .checklist-page li { break-inside: avoid; }
 
