@@ -3,7 +3,7 @@
   "updated": "2026-11-08",
   "_instructions": [
     "This file is the ONLY place affiliate IDs belong. Never put an ID directly in an article.",
-    "An empty id or enabled:false means the build emits the product's plain merchant URL with rel=\"noopener\" only — no tracking parameter and no sponsored claim.",
+    "An empty id or enabled:false means the build emits the product's plain merchant URL with rel=\"noopener\" only - no tracking parameter and no sponsored claim.",
     "Fill in an ID only after the program has approved the site and you have read its terms. Do not invent, guess, or reuse another publisher's ID.",
     "The Amazon program requires the site to display an affiliate disclosure. That page already exists at /affiliate-disclosure/ and an inline note is rendered on every article.",
     "Run `npm run check:affiliate` after editing to see what is active and what is still missing."
