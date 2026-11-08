@@ -64,6 +64,7 @@ Article shape:
 ```bash
 npm run build
 npm run check:affiliate     # expected to fail until IDs are filled
+npm run check:links         # every cited source URL must resolve
 npm run serve               # http://localhost:8080
 ```
 Look at the page on desktop and a narrow viewport. Check:

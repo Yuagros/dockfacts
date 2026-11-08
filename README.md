@@ -22,6 +22,7 @@ Requirements: Node.js 18+ (tested on Node 24), git. No `npm install` — there a
 npm run build          # generate docs/
 npm run serve          # preview at http://localhost:8080
 npm run check:affiliate # show whether any affiliate links are live
+npm run check:links    # verify every cited external URL
 npm run strict         # build, treat warnings as errors
 ```
 
@@ -74,6 +75,7 @@ Articles use `[[aff:product-slug]]` or `[[aff:product-slug|label]]`; the build t
 .
 ├── build.js                 # zero-dependency static generator
 ├── serve.js                 # local preview server
+├── check-links.js           # external source URL checker
 ├── new-article.js           # draft scaffolder
 ├── site.config.json         # name, URL, author, analytics
 ├── affiliate_ids.json       # programs + products; the only place IDs live
