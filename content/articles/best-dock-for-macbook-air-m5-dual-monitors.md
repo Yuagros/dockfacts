@@ -152,6 +152,8 @@ For office work, often yes. It requires a driver and Screen Recording permission
 
 No. The Air will only draw the power its own charging system accepts, so a 140W dock will not charge it faster than the laptop allows. Buy the dock for its display paths and ports; the wattage headroom matters if you later move to a 16-inch MacBook Pro.
 
+If you are still comparing, the [printable dock checklist](/checklist/) turns this guide into a twelve-point buying check.
+
 ## Sources
 
 - [Apple — MacBook Air technical specifications](https://www.apple.com/macbook-air/specs/) (display support, ports, DSC), checked 8 November 2026.

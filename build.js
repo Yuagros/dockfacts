@@ -432,6 +432,7 @@ ${body}
     </div>
     <nav class="footer-nav" aria-label="Footer">
       <a href="${root}articles/">All guides</a>
+      <a href="${root}checklist/">Free checklist</a>
       <a href="${root}how-we-research/">How we research</a>
       <a href="${root}about/">About</a>
       <a href="${root}affiliate-disclosure/">Affiliate disclosure</a>
@@ -565,7 +566,7 @@ function pageHtml(page) {
       ${page.description ? `<p class="dek">${escapeHtml(page.description)}</p>` : ''}
       ${page.updated ? `<div class="meta"><span>Updated ${escapeHtml(formatDate(page.updated))}</span></div>` : ''}
     </header>
-    <div class="article-body page-body">
+    <div class="article-body page-body${page.slug === 'checklist' ? ' checklist-page' : ''}">
       ${bodyHtml}
     </div>
   </div>
@@ -625,6 +626,17 @@ ${latest.length ? `<section class="section section-alt">
     <p class="section-more"><a href="${root}articles/">All guides <span aria-hidden="true">→</span></a></p>
   </div>
 </section>` : ''}
+
+<section class="section checklist-band">
+  <div class="wrap checklist-callout">
+    <div>
+      <p class="eyebrow">Free checklist</p>
+      <h2>Before you buy a dock, check these 12 things.</h2>
+      <p>A printable one-pager covering the Mac's display ceiling, native display streams, cables, charging, and the red flags on a spec sheet. No email required.</p>
+    </div>
+    <p><a class="btn" href="${root}checklist/">Open the checklist</a></p>
+  </div>
+</section>
 
 <section class="section">
   <div class="wrap method-strip">

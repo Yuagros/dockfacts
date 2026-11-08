@@ -139,6 +139,8 @@ A common cause is an MST-based hub or dock; macOS does not support MST for exten
 
 It is a compromise, not a scam. It is useful for productivity setups that exceed the Mac's native display limit. It requires a driver and Screen Recording permission, adds compression and latency, and is not suitable for colour-critical or high-frame-rate work.
 
+Before you spend, the [printable dock checklist](/checklist/) turns this framework into twelve yes/no checks.
+
 ## Sources
 
 - [Apple — MacBook Air technical specifications](https://www.apple.com/macbook-air/specs/) (display limits, Thunderbolt 4, DSC), checked 8 November 2026.

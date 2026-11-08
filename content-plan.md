@@ -58,7 +58,7 @@ Format values: `buying` (commercial), `explainer` (informational), `reference` (
 - Thunderbolt sharing / Mac-to-Mac setups.
 - Studio Display vs third-party 5K for Mac.
 - A free downloadable "Mac display limits" cheat sheet (Phase 3 lead magnet).
-- A free "dock buying checklist" printable.
+- Shipped: `/checklist/` printable dock buying checklist (8 November 2026).
 
 ## Topic rules
 

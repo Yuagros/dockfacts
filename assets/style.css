@@ -251,6 +251,36 @@ p { margin: 0 0 1.15em; }
 .card-feature { background: linear-gradient(180deg, var(--surface), var(--surface-2)); }
 .card-grid-wide { grid-template-columns: repeat(auto-fit, minmax(min(100%, 22rem), 1fr)); }
 
+/* Checklist callout */
+.checklist-band {
+  background: var(--accent-wash);
+  border-block: 1px solid var(--line);
+}
+.checklist-callout {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+.checklist-callout h2 {
+  font-size: clamp(1.6rem, 3vw, 2.2rem);
+  margin-bottom: 0.45rem;
+}
+.checklist-callout p {
+  color: var(--muted);
+  max-width: 40rem;
+  margin-bottom: 0;
+}
+.checklist-callout .eyebrow { color: var(--accent-ink); }
+.checklist-callout .btn { white-space: nowrap; }
+@media (max-width: 760px) {
+  .checklist-callout { flex-direction: column; align-items: flex-start; gap: 1.2rem; }
+}
+
+/* Printable checklist */
+.checklist-page ul { list-style: none; padding-left: 0; }
+.checklist-page li { margin-bottom: 0.9rem; }
+
 /* Method strip */
 .method-strip {
   display: block;
@@ -558,6 +588,7 @@ tbody td:first-child { font-weight: 600; color: var(--ink); white-space: nowrap;
   .hero { padding-top: 2.8rem; }
   .method-strip > div:first-child { margin-bottom: 1.2rem; }
   .method-cols { grid-template-columns: 1fr; gap: 1.3rem; }
+  .checklist-callout { flex-direction: column; align-items: flex-start; gap: 1.2rem; }
   .footer-grid { grid-template-columns: 1fr; gap: 1.4rem; }
   .toc ol { columns: 1; }
   .prevnext { grid-template-columns: 1fr; }
