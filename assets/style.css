@@ -16,7 +16,7 @@
   --serif: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
   --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   --mono: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
-  --measure: 46rem;
+  --measure: 48rem;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -278,8 +278,53 @@ p { margin: 0 0 1.15em; }
 }
 
 /* Printable checklist */
-.checklist-page ul { list-style: none; padding-left: 0; }
-.checklist-page li { margin-bottom: 0.9rem; }
+.page-wrap.page-wrap--checklist { max-width: 56rem; }
+.page-wrap--checklist .article-head { max-width: 100%; }
+.article-body.checklist-page { max-width: 52rem; }
+.checklist-page h3 {
+  font-family: var(--sans);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--accent-ink);
+  margin: 2.4rem 0 0.5rem;
+}
+.checklist-page blockquote {
+  margin: 1.4rem 0 1.8rem;
+  padding: 1rem 1.2rem;
+  border-left: 3px solid var(--accent);
+  background: var(--accent-wash);
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: 0.95rem;
+  font-style: normal;
+}
+.checklist-page :is(#host-and-displays, #ports-power-and-network, #cables-and-purchase) + ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0 0 1.8rem;
+}
+.checklist-page :is(#host-and-displays, #ports-power-and-network, #cables-and-purchase) + ul > li {
+  position: relative;
+  margin: 0;
+  padding: 0.75rem 0 1.05rem 2.2rem;
+  border-bottom: 1px solid var(--line);
+  line-height: 1.6;
+}
+.checklist-page :is(#host-and-displays, #ports-power-and-network, #cables-and-purchase) + ul > li:last-child {
+  border-bottom: 0;
+}
+.checklist-page :is(#host-and-displays, #ports-power-and-network, #cables-and-purchase) + ul > li::before {
+  content: "☐";
+  position: absolute;
+  left: 0;
+  top: 0.6rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  color: var(--accent);
+}
+.checklist-page li { break-inside: avoid; }
 
 /* Method strip */
 .method-strip {
@@ -422,9 +467,9 @@ p { margin: 0 0 1.15em; }
 }
 @media (min-width: 1180px) {
   .article-body .table-wrap {
-    width: 52rem;
+    width: 54rem;
     max-width: calc(100vw - 4rem);
-    margin-left: -3rem;
+    margin-left: -4rem;
   }
 }
 table {
@@ -527,8 +572,8 @@ tbody td:first-child { font-weight: 600; color: var(--ink); white-space: nowrap;
 
 /* Pages */
 .page { padding: clamp(2.2rem, 5vw, 3.8rem) 0 4rem; }
-.page-wrap { max-width: 56rem; }
-.page-body { max-width: 44rem; }
+.page-wrap { max-width: 48rem; margin-inline: auto; }
+.page-body { max-width: 100%; }
 .page-body h2 { margin-top: 2.2rem; }
 .page-body h2:first-child { margin-top: 0; }
 

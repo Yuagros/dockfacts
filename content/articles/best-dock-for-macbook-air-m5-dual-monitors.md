@@ -15,14 +15,14 @@ We did not test these units. Every specification below is linked to the vendor o
 
 ## Quick picks
 
-| Pick | Best for | Displays the vendor claims | Host charging | Price |
+| Pick | Best for | Displays | Charging | Price |
 | --- | --- | --- | --- | --- |
-| [[aff:plugable-tbt-udh2]] | Two HDMI monitors, no adapters | 2× HDMI 2.1 up to 8K60 or 4K144, plus one downstream Thunderbolt 5 | 140W | $349.95 (8 Nov 2026) |
-| [[aff:caldigit-ts5]] | Buying once, upgrading the Mac later | Dual on Thunderbolt 4 hosts; triple on supported Thunderbolt 5 hosts | 140W | Check price |
-| [[aff:caldigit-ts4]] | A DisplayPort monitor and a pile of USB-A gear | Dual 6K at 60Hz | 98W | Check price |
-| [[aff:anker-555]] | One display only, on a budget | 1× HDMI 2.0 at 4K60 | 85W to laptop | Check price |
+| [[aff:plugable-tbt-udh2]] | Dual HDMI | 2× HDMI 2.1 up to 8K60/4K144, plus 1 downstream TB5 | 140W | $349.95 |
+| [[aff:caldigit-ts5]] | Future TB5 Mac | Dual on TB4; triple on TB5 | 140W | Check |
+| [[aff:caldigit-ts4]] | DisplayPort + USB-A | Dual 6K60 | 98W | Check |
+| [[aff:anker-555]] | Single display | 1× HDMI 2.0 at 4K60 | 85W | Check |
 
-Host connections: the Plugable TBT-UDH2 is Thunderbolt 5 (and works with Thunderbolt 4); the CalDigit TS5 is Thunderbolt 5, 4, and 3 plus USB4; the CalDigit TS4 is Thunderbolt 4; the Anker 555 is USB-C with DisplayPort Alt Mode, not Thunderbolt.
+Prices: the Plugable list price was checked on 8 November 2026; the others change, so use the links rather than a snapshot. Host connections: the Plugable TBT-UDH2 is Thunderbolt 5 (and works with Thunderbolt 4); the CalDigit TS5 is Thunderbolt 5, 4, and 3 plus USB4; the CalDigit TS4 is Thunderbolt 4; the Anker 555 is USB-C with DisplayPort Alt Mode, not Thunderbolt.
 
 The last row is deliberately not a dual-monitor answer. It is included because a lot of people searching for a "dock" only need one screen, Ethernet, and a card reader — and paying for Thunderbolt would be waste.
 

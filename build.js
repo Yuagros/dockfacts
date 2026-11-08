@@ -560,7 +560,7 @@ function pageHtml(page) {
     .replace(/href="\/(?!\/)([^"]*)"/g, (m, p) => `href="${root}${p}"`)
     .replace(/\{\{AMAZON_DISCLOSURE\}\}/g, statusLine);
   const body = `<article class="page">
-  <div class="wrap page-wrap">
+  <div class="wrap page-wrap${page.slug === 'checklist' ? ' page-wrap--checklist' : ''}">
     <header class="article-head">
       <p class="eyebrow">${escapeHtml(page.eyebrow || site.name)}</p>
       <h1>${escapeHtml(page.title)}</h1>
