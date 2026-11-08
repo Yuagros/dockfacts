@@ -5,3 +5,4 @@ Thumbs.db
 .env
 .env.*
 data/qa/
+data/build-status.json

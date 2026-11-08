@@ -18,7 +18,7 @@ This is a decision framework, not a ranking. It assumes you have already checked
 | One display up to 4K60, plus Ethernet, SD cards, and USB-A | A USB-C hub | One native display stream is enough; Thunderbolt buys you nothing here |
 | Two displays, both USB-C or DisplayPort, one cable | A Thunderbolt 4 dock | Two native display streams and a 40Gb/s pipe |
 | Two HDMI displays, no adapters wanted | A Thunderbolt dock with two HDMI outputs | Dedicated video outputs that do not rely on MST |
-| More independent screens than your Mac's display engines support | DisplayLink (driver-based) | The only way around a host limit, with real trade-offs |
+| More independent screens than your Mac's display engines support | DisplayLink (driver-based) | A workaround for a host limit, with real trade-offs |
 | A mix of fast storage, 2.5GbE, and dual displays | A Thunderbolt dock | Shared bandwidth is the constraint; a hub is the wrong tool |
 
 If your answer is "one screen, mostly office work", stop reading and buy a reputable hub. If it is "two screens and I want them native", the rest of this page explains what to check before you spend.
