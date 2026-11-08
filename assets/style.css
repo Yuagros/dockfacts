@@ -280,7 +280,7 @@ p { margin: 0 0 1.15em; }
 /* Printable checklist */
 .page-wrap.page-wrap--checklist { max-width: 56rem; }
 .page-wrap--checklist .article-head { max-width: 100%; }
-.article-body.checklist-page { max-width: 52rem; }
+.article-body.checklist-page { max-width: 52rem; margin-inline: auto; }
 .checklist-page h3 {
   font-family: var(--sans);
   font-size: 0.78rem;
