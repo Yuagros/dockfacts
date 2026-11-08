@@ -7,6 +7,8 @@ Format values: `buying` (commercial), `explainer` (informational), `reference` (
 
 ## Published
 
+**Quota used on 2026-11-08: 2 of 2.** Do not publish another article until 2026-11-09. Research and drafts are fine.
+
 | Date | Format | Title | Target query / intent | Status |
 | --- | --- | --- | --- | --- |
 | 2026-11-08 | buying | Best dock for a dual-monitor MacBook Air (M5) | "macbook air m5 dual monitor dock" — buyer | published |
