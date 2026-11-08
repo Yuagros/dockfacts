@@ -5,6 +5,7 @@
   "description": "An independent research desk for Mac docks and multi-display setups. We compare published specs, date every claim, and never pretend we tested the hardware.",
   "baseUrl": "https://YOUR-USERNAME.github.io/dockfacts",
   "repoUrl": "https://github.com/YOUR-USERNAME/dockfacts",
+  "googleSiteVerification": "",
   "launchDate": "2026-11-08",
   "author": {
     "name": "DockFacts Research Desk",

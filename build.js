@@ -387,6 +387,7 @@ function layout({ title, description, route, body, root, schema, noindex }) {
 <meta name="description" content="${escapeHtml(description)}">
 <link rel="canonical" href="${escapeHtml(canonicalUrl)}">
 ${noindex ? '<meta name="robots" content="noindex, follow">' : '<meta name="robots" content="index, follow, max-image-preview:large">'}
+${site.googleSiteVerification ? `<meta name="google-site-verification" content="${escapeHtml(site.googleSiteVerification)}">` : ''}
 <meta property="og:site_name" content="${escapeHtml(site.name)}">
 <meta property="og:type" content="${route.startsWith('/articles/') ? 'article' : 'website'}">
 <meta property="og:title" content="${escapeHtml(title)}">
@@ -907,10 +908,13 @@ function main() {
   // Affiliate readiness report
   const enabled = Object.entries(aff.programs || {}).filter(([, p]) => p.enabled && p.id);
   const disabled = Object.entries(aff.programs || {}).filter(([, p]) => !p.enabled || !p.id);
+  const usedAffiliateSlugs = new Set(
+    allArticleFiles.flatMap((a) => [...a.body.matchAll(/\[\[aff:([a-z0-9-]+)/g)].map((m) => m[1]))
+  );
   const productsMissingAsin = Object.entries(aff.products || {})
-    .filter(([, p]) => {
+    .filter(([slug, p]) => {
       const prog = aff.programs[p.program];
-      return prog && prog.enabled && !p.asin;
+      return usedAffiliateSlugs.has(slug) && prog && prog.enabled && !p.asin;
     })
     .map(([slug]) => slug);
 

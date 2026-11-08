@@ -4,6 +4,8 @@ A zero-budget, spec-verified affiliate site about **Mac docking stations and mul
 
 **Status (2026-11-08):** site built and committed locally; 2 published guides, 3 drafts awaiting source re-checks, and 1 free printable checklist; **$0.00 spent**; **$0.00 earned**; not yet deployed; no affiliate program active. See `BLOCKERS.md`.
 
+**Operator:** the step-by-step account, deploy, Search Console, and affiliate checklist is in [MANUAL_TODOS.md](MANUAL_TODOS.md).
+
 ## The niche, in five lines
 
 1. **Narrow but deep:** Apple silicon Macs have model-specific display limits (base vs Pro/Max, Thunderbolt 4 vs 5, DSC), so buyers search exact configurations rather than "best dock".
