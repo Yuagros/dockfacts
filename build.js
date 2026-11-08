@@ -174,7 +174,8 @@ function affLink(slug, label) {
   const product = (aff.products && aff.products[slug]) || {};
   const text = label || escapeHtml(product.name || slug);
   const safeUrl = /^https?:\/\//i.test(url) ? url : '#';
-  return `<a class="aff-link" href="${escapeHtml(safeUrl)}" rel="sponsored nofollow noopener" target="_blank" data-product="${escapeHtml(slug)}" data-aff="${status}">${text}</a>`;
+  const rel = status === 'tagged' ? 'sponsored nofollow noopener' : 'noopener';
+  return `<a class="aff-link" href="${escapeHtml(safeUrl)}" rel="${rel}" target="_blank" data-product="${escapeHtml(slug)}" data-aff="${status}">${text}</a>`;
 }
 
 /* ------------------------------------------------------------------ */

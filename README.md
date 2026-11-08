@@ -64,7 +64,7 @@ The output uses relative links, so the site also works from a project subpath or
 3. Run `npm run check:affiliate`. It should say "ready to earn".
 4. Rebuild and commit.
 
-Articles use `[[aff:product-slug]]` or `[[aff:product-slug|label]]`; the build turns that into a tracked link with `rel="sponsored nofollow noopener"`. If a product or program is missing, the build reports it and uses the merchant fallback.
+Articles use `[[aff:product-slug]]` or `[[aff:product-slug|label]]`; the build turns that into a tracked link with `rel="sponsored nofollow noopener"`; untagged fallbacks get `rel="noopener"` only. If a product or program is missing, the build reports it and uses the merchant fallback.
 
 **Never invent an ASIN or reuse another publisher's tag.** Wrong ASINs mislead readers; borrowed tags violate program terms.
 
